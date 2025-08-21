@@ -11,6 +11,8 @@ body {
     height: 100%;
     font-family: "Saans TRIAL";
     background: #000;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -204,7 +206,7 @@ nav {
 
 .menu-link,
 .menu-sub-item {
-    clip-path: polygon(0 0, 100% 100%, 0% 100%);
+    /* clip-path: polygon(0 0, 100% 100%, 0% 100%); */
 }
 
 @media (max-width: 900px) {
